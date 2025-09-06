@@ -27,7 +27,7 @@ def get_ai_tips(expenses, budget, remaining, goal, mode):
     Provide 6 personalized student-focused budgeting tips.
     - If monthly: focus on food, outings, daily savings.
     - If semester: focus on tuition fees, hostel, trips, exams, and long-term planning.
-    Keep them simple and actionable. Use proper fonts.
+    Keep them simple and actionable.
     """
     response = model.generate_content(prompt)
     return response.text
